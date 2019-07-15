@@ -1,6 +1,11 @@
 # Created by .ignore support plugin (hsz.mobi)
 ### Gradle template
 .gradle
+gradle
+gradlew
+gradlew.bat
+build.gradle
+settings.gradle
 /build/
 
 # Ignore Gradle GUI config
