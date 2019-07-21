@@ -5,6 +5,9 @@ import com.chulm.study.asset.Food;
 import java.util.*;
 import java.util.stream.Collectors;
 
+/**
+ * Method reference 를 통한 리팩토링
+ */
 public class RefactoringLambda03 {
 
     enum CaloricLevel {

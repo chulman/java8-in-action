@@ -1,5 +1,8 @@
 package com.chulm.study.chapter08;
 
+/**
+ * 람다를 통한 리팩토링
+ */
 public class RefactoringLambda02 {
 
     static interface  Task {

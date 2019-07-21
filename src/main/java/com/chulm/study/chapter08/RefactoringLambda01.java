@@ -1,5 +1,8 @@
 package com.chulm.study.chapter08;
 
+/**
+ * 익명클래스와 람다의 스코프
+ */
 public class RefactoringLambda01 {
     public static  void main(String[] args){
 

@@ -2,7 +2,7 @@
 
 ### 객체 지향 패턴 간소화
 
-- strategy 
+- strategy
 - template method
 - observer
 - chain of responsibility
@@ -37,3 +37,16 @@
    inventory.sort(comparing(Apple::getWeight)); // 코드 자체로 설명된다.
 ```
 
+
+### 함수형 인터페이스 적용
+
+- 조건부 연기 실행(conditional deferred execution) 및 실행 어라운드(execute around) 패턴을 통한 람다 리팩토링
+
+
+> 조건부 연기 실행
+- 특정 조건에서만 실행되도록 연기한다. 
+
+> 실행 어라운드
+- 반복적으로 실행, 준비, 종료되는 로직을 추상화한다.
+
+ 
