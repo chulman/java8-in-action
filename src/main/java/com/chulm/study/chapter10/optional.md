@@ -55,4 +55,15 @@ public class Insurance {
                                 // optinal 선택형 값을 캡슐화하는 클래스이다.
     public String getName(){return name;}
 }
-```    
+```   
+
+## default 액션과 optional 언랩
+
+- optional의 최대 요소 개수는 1개이다.
+
+- optional이 비어 있으면 디폴트 값을 제공하는 orElse로 값을 읽자.
+    + get은 값을 읽는 간단한 방법이지만 안전하지 않다. 값이 없으면 NoSuchElementException
+    + orElse는 디폴트 값을 준다
+    + orElseGet은 orElse를 대응하는 게으른 버전.
+    + orElseThrow는 선택형 예외를 발생한다.
+    + ifPresent는 값을 넘겨줄 때 인수로 넘겨준 값을 실행 
