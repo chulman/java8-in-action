@@ -5,8 +5,20 @@ import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.Future;
 
 class Shop {
-
+    private String name;
     Random random = new Random();
+
+
+    public String getName() {
+        return name;
+    }
+
+    public Shop() {
+
+    }
+    public Shop(String name) {
+        this.name = name;
+    }
 
     //동기적 메소드
     public double getPrice(String product){
